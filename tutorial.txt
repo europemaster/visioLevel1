@@ -1,2 +1,3 @@
 28.3.2018
 Danes sva ustvarila Git repositiri
+1. Naloga izračunala sva procent alkohola v krvi
