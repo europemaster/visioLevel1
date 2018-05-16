@@ -1,8 +1,0 @@
-28.3.2018
-Danes sva ustvarila Git repositiri
-1. Naloga izračunala sva procent alkohola v krvi
-
-
-
-4.4.2018
-Cilj: ustvari kompleksnejši kalulator, kjer uporabnik sam vtipka parametre
