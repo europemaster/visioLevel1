@@ -14,3 +14,7 @@ def buy(item_number):
         price_arr.append(round(random()*100, 2))
         groceries.append(groceries_map[int(random()*4)+1])
     return price_arr, groceries, round((random()*100)*item_number)
+
+
+def random_winner():
+    return int(random()*100)+1

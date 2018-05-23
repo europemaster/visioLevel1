@@ -1,15 +1,18 @@
-import helper3
+import helper4
 from time import sleep
 # 1. Create an input where user inputs number of groceries that he/she wants to buy.
 # Save input into variable named your_input.
 # If user inputs a number greater than 40, set your_input to 0.
 
-your_input = int(input("How many groceries would you want to buy?"))
-if your_input > 40:
-    your_input = 0
+
+def customer_input():
+    your_input = int(input("How many groceries would you want to buy?"))
+    if your_input > 40:
+        your_input = 0
+    return your_input
 
 # Do not change line below.
-price_list, groceries_list, money_available = helper3.buy(your_input)
+price_list, groceries_list, money_available = helper4.buy(customer_input())
 #
 
 # 2. Create a function that accepts price_list as a parameter and returns average.
@@ -35,6 +38,7 @@ def chart_print(price_list, groceries_list):
             print("This is below average price")
         else:
             print("This is above average price.")
+        sleep(0.5)
 
 # 4. Use a function from task #2 and for every grocery prints if its price is above or below average.
 
