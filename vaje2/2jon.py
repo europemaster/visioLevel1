@@ -11,14 +11,20 @@ print(cart, moneyAvailable)
 # # When running program, prompt will asks us how many items
 # #we want to buy and will create an array with prices. If there are
 # #more than 50 items, array will be empty
-Average = sum(cart)/len(cart)
+
+
+
+Average = sum(cart)/len(cart) #///////// variable names usually begin with lower case, so average in this case
 print("Average = ",Average)
 
 print("Max = ",max(cart),"Min = ", min(cart))
+
+##///////// names of variables should be more descriptive if there is another person looking your code
 F = 0
 T = 0
 C = 0
 nicodtega = 0
+
 for i in cart:
 
     if i <= 4.8:
