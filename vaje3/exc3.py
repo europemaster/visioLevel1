@@ -3,11 +3,13 @@ from time import sleep
 # 1. Create an input where user inputs number of groceries that he/she wants to buy.
 # Save input into variable named your_input.
 # If user inputs a number greater than 40, set your_input to 0.
+def your_input():
+    your_input = int(input("How many groceries would you want to buy?"))
+    if your_input > 40:
+        your_input = 0
+    return  your_input
 
-your_input = int(input("How many groceries would you want to buy?"))
-if your_input > 40:
-    your_input = 0
-
+number = your_input()
 # Do not change line below.
 price_list, groceries_list, money_available = helper3.buy(your_input)
 #

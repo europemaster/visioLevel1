@@ -8,8 +8,9 @@ from time import sleep
 def customer_input():
     your_input = int(input("How many groceries would you want to buy?"))
     if your_input > 40:
-        your_input = 0
-    return your_input
+        return 0
+    else:
+        return your_input
 
 # Do not change line below.
 price_list, groceries_list, money_available = helper4.buy(customer_input())
@@ -28,12 +29,17 @@ def price_average(price_list):
 # clothes, 9
 # ...
 
+# def chart_print2(price_list, groceries_list):
+#     for index, val in enumerate(price_list):
+#         print(val, groceries_list[index])
+#
+# chart_print2(price_list, groceries_list)
 
 def chart_print(price_list, groceries_list):
     groceries_avg = price_average(price_list)
-    print("\n----------\nAverage cart price is: {:0.2f}€\n----------".format(groceries_avg))
+    print("\n----------\nAverage cart price is: {}€\n----------".format(groceries_avg))
     for index, p in enumerate(price_list):
-        print("{0} : {1}€".format(groceries_list[index], p))
+        print("{} : {}€".format(groceries_list[index], p))
         if comparer(p, groceries_avg):
             print("This is below average price")
         else:
