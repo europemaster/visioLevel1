@@ -54,6 +54,15 @@ def shop():
     print("Money earned in a day: {}€".format(total))
 
 shop()
+
+
+
+
+
+
+
+
+
 # 2 create a function that simulates purchases
 # let's say there are 100 purchases in a lifetime of a program where a timeout
 # between the two is 3 seconds. `sleep(3)`
