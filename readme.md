@@ -85,3 +85,7 @@ These results will be used as a learning set for our predictions.
  **or**
  -If result of the game is totally correct, award is additional 500€.
 
+### How do I give in my work?
+
+Create a Git repo and share it with `europemaster`
+
