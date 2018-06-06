@@ -38,6 +38,7 @@
 These results will be used as a learning set for our predictions.
 
 `(15%)`
+
 2. Let's make some statistics first:
  -Print out, how many times Golden State and Cleveland won overall.
  -Print out, how many times each team won at home and away.
@@ -45,13 +46,16 @@ These results will be used as a learning set for our predictions.
  -Trend, which team is better lately? (feel free to find a way how to do it)
 
 `(25%)`
+
 3. Create an algorithm that will print out the prediction for the next game. Use games 27 and 28 to test the predictions. The result should be logical (e.g. 32:18, or 174:198 don't make sense.)
  -There will be min 2 and max 3 more games until the deadline. Test your predictions against these matches too by including games 27 and 28 into learning set. Are predictions any better?
 
 `(10%)`
+
 4. Run your algorithm 10 000 times and print out, what is average prediction.
 
 `(40%)`
+
 5. Create a betting system where user will input their prediction only once.
 *{Use games 29,30,(31) as actual results}*
  -Print out the user's prediction
