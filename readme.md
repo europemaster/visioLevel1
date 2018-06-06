@@ -37,7 +37,7 @@
 **The test exercise will try to predict a 2018 NBA finals game results.**
 
 `(10%)`
-1. Import (manually typing is OK) [resent results](https://en.wikipedia.org/wiki/Cavaliers%E2%80%93Warriors_rivalry#Results_(2014%E2%80%9315_season%E2%80%93present)) into suitable data structure. Use games from 1-26.
+1. Import (manually typing is OK) [recent results](https://en.wikipedia.org/wiki/Cavaliers%E2%80%93Warriors_rivalry#Results_(2014%E2%80%9315_season%E2%80%93present)) into suitable data structure. Use games from 1-26.
 These results will be used as a learning set for our predictions.
 
 `(15%)`
