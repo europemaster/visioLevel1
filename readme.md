@@ -1,5 +1,5 @@
 ## Visionect Python tutoring, group 1
-deadline: `Wed 13/6/2018 23:59`
+deadline: `Wed 20/6/2018 23:59`
 
 ### How is this test graded.
 
